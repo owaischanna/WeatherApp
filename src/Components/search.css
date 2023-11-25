@@ -1,0 +1,81 @@
+/* Add this CSS to your stylesheet or component */
+
+/* Add this CSS to your search component stylesheet or component */
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px; /* Add some margin at the bottom for spacing */
+  }
+  
+  input {
+    flex: 1;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px 0 0 4px;
+  }
+  
+  button {
+    padding: 12px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: 1px solid #007bff;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+  }
+  
+  /* Optional: Add media queries for responsiveness */
+  @media (max-width: 600px) {
+    input {
+      font-size: 14px; /* Adjust font size for smaller screens */
+    }
+  
+    button {
+      padding: 10px 16px; /* Adjust padding for smaller screens */
+    }
+  }
+  
+  
+  datalist {
+    max-height: 150px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+ 
+  
+  .forecast-container {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .forecast-container {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .forecast-day {
+    flex: 1;
+    padding: 10px;
+    background-color: #8c959f;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  .forecast-day:hover{
+    transform: scale(1.1); /* Adjust the scale factor as needed */
+    transition: transform 0.3s ease;
+    color: yellow   ;
+  } 
+ 
+  

@@ -1,38 +1,115 @@
+/* App.css */
+
+body {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+  margin: 0;
+  padding: 0;
+  background-image:url('../public/weather.jpg');
+}
+
 .App {
+  max-width: 600px;
+  margin: 10px auto;
+  padding: 20px;
+  border-radius: 8px; 
+  
+  box-shadow: 0 0 10px rgba(217, 26, 26, 0.1);
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1 {
+  
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 40px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h2 {
+  color: #0c131c;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+h3 {
+  color: #1a2229;
 }
 
-.App-link {
-  color: #61dafb;
+.weather-container {
+  margin-top: 20px;
+  padding: 20px;
+  
+  
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.weather-container:hover {
+  background-color: rgb(122, 122, 88);
+  font-weight: bold;
+  
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.weather-container h2 {
+  font-size: 30px;
+  margin-bottom: 10px;
 }
+
+.weather-container p {
+  font-size: 26px;
+  margin: 5px 0;
+  background: rgb(rgb(103, 88, 88), green, blue);
+}
+
+.weather-container p.description {
+  font-weight: bold;
+  color: rgb(67, 33, 33);
+}
+
+.forecast-container h2 {
+  width: 100%; 
+  font-size: 25px; /* Adjust font size if needed */
+  margin-bottom: 10px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.forecast-container  {
+  margin-top: 20px;
+  /* background-color: rgb(95, 79, 79);
+  border: 1px solid #dee2e6; */
+  
+
+}
+
+
+.forecast-container h3 {  
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: rgb(108, 83, 36);
+  
+  
+}
+
+.forecast-container ul {
+  list-style: none;
+  padding: 0;
+  
+}
+
+.forecast-container li {
+  flex: 1;
+  box-sizing: border-box;
+  padding: 10px;
+  background-color: rgb(150, 125, 125);
+  border: 1px solid blue;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(175, 11, 11, 0.1);
+  margin: 100px;
+  text-align: center;
+}
+
+
+
+
+.forecast-container {
+
+  flex-wrap: wrap;
+ 
+  justify-content: space-around;
+}
+

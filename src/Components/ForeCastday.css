@@ -1,0 +1,29 @@
+/* Add this CSS to your stylesheet or component */
+
+.forecast-day {
+    border: 1px solid #8a7070;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+  }
+  
+  .weather-icon {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  /* Additional styles as needed */
+  h3 {
+    color: #333;
+  }
+  
+  .AverageTemperature {
+    font-size: 1.2em;
+    margin: 5px 0;
+  }
+  
+  .weatherDescription {
+    color: #555;
+  }
+  
